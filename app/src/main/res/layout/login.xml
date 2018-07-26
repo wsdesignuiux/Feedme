@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="67.7dp"/>
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:hint="Username"
+            android:layout_marginTop="54.7dp"
+            android:layout_marginLeft="34.6dp"
+            android:layout_marginRight="33.6dp"
+            android:textColorHint="#8c8c8c"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:textSize="14.4sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="34.6dp"
+            android:layout_marginRight="33.6dp"
+            android:layout_marginTop="6.5dp"/>
+
+
+            <customfonts.EditText_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.6dp"
+                android:background="#00000000"
+                android:hint="Password"
+                android:layout_marginLeft="34.6dp"
+                android:layout_marginRight="33.6dp"
+                android:textColorHint="#8c8c8c"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textSize="14.4sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="34.6dp"
+                android:layout_marginRight="33.6dp"
+                android:layout_marginTop="6.5dp"/>
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34.6dp"
+            android:layout_marginRight="33.6dp"
+            android:layout_marginTop="53.8dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center_horizontal"
+            android:padding="15.4dp"
+            android:text="LOGIN"
+            android:textColor="#ffffff"
+            android:textSize="14.4sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_above="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_1"
+        android:padding="15.5dp"
+        android:layout_marginTop="127.7dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="34.6dp"
+        android:layout_marginRight="33.6dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook_176"
+            android:layout_gravity="center_horizontal"/>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONNECT WITH FACEBOOK"
+            android:textSize="14.4sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="28.1dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textSize="14.4sp"
+            android:textColor="#ffffff"/>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="14.4sp"
+            android:textColor="#d22532"/>
+    </LinearLayout>
+</RelativeLayout>
