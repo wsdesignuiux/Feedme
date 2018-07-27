@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class feed_me_list extends AppCompatActivity {
 
-    TextView tv1, tv2, tv3, tv4, tv5, tv6, tv7, tv8, tv9, tv10, tv11;
+    TextView tv1, tv2, tv3, tv4, tv5, tv6, tv7, tv8, tv9, tv10, tv11,tv12,tv13;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,10 @@ public class feed_me_list extends AppCompatActivity {
         tv10 = findViewById(R.id.login10);
 
         tv11 = findViewById(R.id.login11);
+        tv12 = findViewById(R.id.login12);
+
+        tv13 = findViewById(R.id.login13);
+
 
 
         tv1.setOnClickListener(new View.OnClickListener() {
@@ -121,6 +125,24 @@ public class feed_me_list extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
+        tv12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(feed_me_list.this, AllcategoriesMainactivity.class);
+                startActivity(in);
+            }
+        });
+
+        tv13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(feed_me_list.this, BookATableMainactivity.class);
+                startActivity(in);
+            }
+        });
+
+
     }
 
 }

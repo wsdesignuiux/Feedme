@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/bookatabletoolbar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ededed" />
+
+                <com.harrywhewell.scrolldatepicker.DayScrollDatePicker
+                    android:id="@+id/day_date_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f9f9f9" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ededed" />
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerview_id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#e6f9f9f9"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ededed" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.2dp"
+                        android:layout_marginTop="4dp"
+                        android:text="ORDERING"
+                        android:textColor="#c2c4ca" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="27.2dp"
+                        android:orientation="horizontal">
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginLeft="15.2dp"
+                            android:layout_weight="1"
+                            android:text="Number of person"
+                            android:textColor="#9b9b9b"
+                            android:textSize="14.4sp" />
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="70dp"
+                            android:text="2 Adults,  3 Children"
+                            android:textColor="#262628"
+                            android:textSize="14.4sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/ic_chevron_right_black_24dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f5f5f5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15.7dp"
+                    android:layout_marginTop="11.5dp"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.5dp"
+                        android:text="MENU"
+                        android:textColor="#c2c4ca"
+                        android:textSize="14.4sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.6dp"
+                        android:background="#ffffff"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/foodimg1"
+                                android:layout_width="57.6dp"
+                                android:layout_height="57.6dp"
+                                android:layout_marginBottom="14.4dp"
+                                android:layout_marginLeft="13.4dp"
+                                android:layout_marginTop="14.4dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/food"
+                                app:riv_corner_radius="3.8dip" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <customfonts.MyTextView_Roboto_Regular
+                                    android:id="@+id/itemname1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="13.4dp"
+                                    android:layout_marginTop="11.7dp"
+                                    android:text="Cocobolo Poolside Bar + Grill"
+                                    android:textColor="#262628"
+                                    android:textSize="14.4sp" />
+
+                                <customfonts.MyTextView_Roboto_Regular
+                                    android:id="@+id/itemprice1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="13.4dp"
+                                    android:layout_marginTop="2dp"
+                                    android:text="$ 50.00"
+                                    android:textColor="#9b9b9b"
+                                    android:textSize="11.5sp" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="34.6dp"
+                                android:layout_height="34.6dp"
+                                android:layout_marginBottom="14.4dp"
+                                android:layout_marginTop="14.4dp"
+                                android:src="@drawable/check" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#f5f5f5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/foodimg2"
+                                android:layout_width="57.6dp"
+                                android:layout_height="57.6dp"
+                                android:layout_marginBottom="14.4dp"
+                                android:layout_marginLeft="13.4dp"
+                                android:layout_marginTop="14.4dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/food"
+                                app:riv_corner_radius="3.8dip" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <customfonts.MyTextView_Roboto_Regular
+                                    android:id="@+id/itemname2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="13.4dp"
+                                    android:layout_marginTop="11.7dp"
+                                    android:text="The White Rabbit"
+                                    android:textColor="#262628"
+                                    android:textSize="14.4sp" />
+
+                                <customfonts.MyTextView_Roboto_Regular
+                                    android:id="@+id/itemprice2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="13.4dp"
+                                    android:layout_marginTop="2dp"
+                                    android:text="$ 45.00"
+                                    android:textColor="#9b9b9b"
+                                    android:textSize="11.5sp" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="34.6dp"
+                                android:layout_height="34.6dp"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/check" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#f5f5f5" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/foodimg3"
+                                android:layout_width="57.6dp"
+                                android:layout_height="57.6dp"
+                                android:layout_marginBottom="14.4dp"
+                                android:layout_marginLeft="13.4dp"
+                                android:layout_marginTop="14.4dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/food"
+                                app:riv_corner_radius="3.8dip" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <customfonts.MyTextView_Roboto_Regular
+                                    android:id="@+id/itemname3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="13.4dp"
+                                    android:layout_marginTop="11.7dp"
+                                    android:text="Burlamacco Ristorante"
+                                    android:textColor="#262628"
+                                    android:textSize="14.4sp" />
+
+                                <customfonts.MyTextView_Roboto_Regular
+                                    android:id="@+id/itemprice3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="13.4dp"
+                                    android:layout_marginTop="2dp"
+                                    android:text="$ 29.00"
+                                    android:textColor="#9b9b9b"
+                                    android:textSize="11.5sp" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="34.6dp"
+                                android:layout_height="34.6dp"
+                                android:src="@drawable/add_items" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#f5f5f5" />
+
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="9.2dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="View more"
+                        android:textSize="15.7sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10.7dp"
+        android:background="#d22532"
+        android:orientation="horizontal">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:id="@+id/txttotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15.4dp"
+            android:text="TOTAL : $ 312.00"
+            android:textColor="#ffffff"
+            android:textSize="14.4sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:padding="15.4dp">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/txtorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ORDER"
+                android:textColor="#ffffff"
+                android:textSize="14.4sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/darker_gray"
+                android:src="@drawable/ic_arrow_forward_black_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

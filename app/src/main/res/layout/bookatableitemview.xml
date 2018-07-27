@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:padding="8dp"
+            android:id="@+id/txttime"
+            android:text="10:15"
+            android:textColor="#000000"
+            android:textSize="14.4sp"
+            android:layout_marginTop="11.4dp"
+            android:layout_marginBottom="11.4dp"
+            android:layout_marginLeft="13.2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ededed"
+            android:layout_marginTop="19.5dp"/>
+
+
+
+</LinearLayout>
