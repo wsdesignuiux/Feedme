@@ -22,8 +22,8 @@ public class NevigationActivity extends AppCompatActivity {
 
         Integer[] imagehistory = {R.drawable.payment_method,
                                   R.drawable.reward_credits,R.drawable.settings,R.drawable.invite_friends};
-        Integer[] image1 ={R.drawable.shape,R.drawable.shape,R.drawable.shape,
-                R.drawable.shape};
+        Integer[] image1 ={R.drawable.ic_chevron_right_black_24dp,R.drawable.ic_chevron_right_black_24dp,R.drawable.ic_chevron_right_black_24dp,
+                R.drawable.ic_chevron_right_black_24dp};
 
             private RecyclerView recyclerView;
             private Nevigation_Adapter nevigation_adapter;

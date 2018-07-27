@@ -89,7 +89,7 @@
             android:layout_marginTop="22.1dp"
             android:background="@drawable/rectangle"
             android:gravity="center_horizontal"
-            android:padding="14.4dp"
+            android:padding="16dp"
             android:text="SEARCH"
             android:textColor="#ffffff"
             android:textSize="14.4sp" />

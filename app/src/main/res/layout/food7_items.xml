@@ -101,9 +101,9 @@
 
             <ImageView
                 android:id="@+id/History_Id"
-                android:layout_width="17.3dp"
-                android:layout_height="17.3dp"
-                android:src="@drawable/history"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_copy5"
                 android:tint="#d22532"
                 android:layout_marginLeft="2dp"/>
 

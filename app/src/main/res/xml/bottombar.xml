@@ -6,7 +6,7 @@
         inActiveColor="#d3d3d3"/>
     <tab
         id="@+id/tab_nearby"
-        icon="@drawable/ic_history"
+        icon="@drawable/ic_copy5"
         activeColor="#d22532"
         inActiveColor="#d3d3d3"/>
     <tab

@@ -51,17 +51,17 @@
                 android:layout_marginRight="33.6dp"
                 android:textColorHint="#8c8c8c"
                 android:inputType="textPassword"
-                android:textColor="#33ffffff"
+                android:textColor="#ffffff"
                 android:textSize="14.4sp" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#ffffff"
+                android:background="#33ffffff"
                 android:layout_marginLeft="34.6dp"
                 android:layout_marginRight="33.6dp"
                 android:layout_marginTop="6.5dp"/>
 
-        <customfonts.EditText_Roboto_Regular
+        <customfonts.MyTextView_Roboto_Regular
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="34.6dp"
