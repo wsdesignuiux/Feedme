@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <include layout="@layout/toolbar_reviews"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25 Reviews"
+        android:layout_marginLeft="13.4dp"
+        android:layout_marginTop="13.4dp"
+        android:textColor="#c2c4ca"
+        android:background="#ffffff"
+        android:id="@+id/foodtext4"
+        android:textSize="14.4sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>
