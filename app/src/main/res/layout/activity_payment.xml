@@ -120,7 +120,7 @@
             android:layout_height="31.7dp"
             android:layout_gravity="center"
             android:layout_marginRight="5.7dp"
-            android:src="@drawable/ic_visa_2"/>
+            android:src="@drawable/visa"/>
     </LinearLayout>
 
     <LinearLayout
@@ -147,8 +147,10 @@
             android:layout_width="96dp"
             android:layout_height="31.7dp"
             android:layout_gravity="center"
-            android:src="@drawable/ic_paypal"/>
+            android:src="@drawable/paypal"/>
+
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -177,8 +179,6 @@
             android:layout_marginRight="8.7dp"
             android:src="@drawable/ic_mastercard"/>
     </LinearLayout>
-
-
 
 
 
